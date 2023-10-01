@@ -61,12 +61,12 @@ body {
         display: none;
         float: left;
         width: 100%;
-        height: 500px;
+        height: 750px;
         margin-right: -100%;
         backface-visibility: hidden;
         @include transition($carousel-transition);
 
-        img {
+        .img {
             height: 500px;
           }
     }
