@@ -15,7 +15,7 @@ body {
 @media only screen and (max-width: 460px) {
 .carousel {
     position: relative;
-    height: 500px;
+    height: 350px;
     margin-bottom: 35px;
 }
   }
@@ -38,7 +38,7 @@ body {
     .carousel-inner {
         position: relative;
         width: 100%;
-        height: 500px;
+        height: 350px;
         overflow: hidden;
         @include clearfix();
     }
@@ -61,7 +61,7 @@ body {
         display: none;
         float: left;
         width: 100%;
-        height: 750px;
+        height: 350px;
         margin-right: -100%;
         backface-visibility: hidden;
         @include transition($carousel-transition);
@@ -294,6 +294,6 @@ a:hover {
 
     @media only screen and (max-width: 460px) {
         .image-carousel {
-          height: 500px;
+          height: 350px;
         }
       }
