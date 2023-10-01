@@ -293,7 +293,7 @@ a:hover {
 }
 
     @media only screen and (max-width: 460px) {
-        .image-class {
-          height: 100px;
+        .image-carousel {
+          height: 500px;
         }
       }
