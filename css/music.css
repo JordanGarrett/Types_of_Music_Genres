@@ -65,6 +65,12 @@ body {
         margin-right: -100%;
         backface-visibility: hidden;
         @include transition($carousel-transition);
+
+        img {
+            max-width: 100%;
+            min-width: 300px;
+            height: 500px;
+          }
     }
       }
 .carousel-item.active,
