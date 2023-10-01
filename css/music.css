@@ -66,7 +66,7 @@ body {
         backface-visibility: hidden;
         @include transition($carousel-transition);
 
-        .img {
+        img {
             height: 500px;
           }
     }
