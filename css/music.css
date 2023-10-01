@@ -295,3 +295,9 @@ a:hover {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
+
+@media only screen and (max-width: 460px) {
+    .dropdown-menu {
+justify-content: left;
+    }
+}
