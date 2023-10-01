@@ -12,6 +12,14 @@ body {
     margin-bottom: 35px;
 }
 
+@media only screen and (max-width: 460px) {
+.carousel {
+    position: relative;
+    height: 500px;
+    margin-bottom: 35px;
+}
+  }
+
 .carousel.pointer-event {
     touch-action: pan-y;
 }
