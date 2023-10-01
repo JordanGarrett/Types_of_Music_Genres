@@ -294,6 +294,6 @@ a:hover {
 
     @media only screen and (max-width: 460px) {
         .image-carousel {
-          height: 2px;
+          height: 350px;
         }
       }
