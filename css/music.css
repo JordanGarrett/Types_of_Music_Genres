@@ -43,6 +43,12 @@ body {
         @include clearfix();
     }
       }
+     
+@media only screen and (max-width: 460px) {
+    .image-carousel {
+        height: 350px;
+    }
+      }  
 
 .carousel-item {
     position: relative;
@@ -67,6 +73,7 @@ body {
         @include transition($carousel-transition);
     }
       }
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -292,8 +299,4 @@ a:hover {
     pointer-events: none;
 }
 
-    @media only screen and (max-width: 460px) {
-        .image-carousel {
-          height: 350px;
-        }
-      }
+ 
